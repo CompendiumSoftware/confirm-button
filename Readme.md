@@ -21,16 +21,16 @@ Usage
 Usage is very similar to jquery-ui's button.  In fact you can pass all
 of the normal jquery-ui button's option as the 'button' option.
 
-  $('<query>').confirmButton({
+	$('<query>').confirmButton({
 		button: { 
 			label:  "Format C:\\"
 		},
 		confirmLabel : 'REALL?'
-		
+
 	});
-  $('<query>').bind('confirmedclick', function(){
-		//gets fired upon confirmed click
-  });
+	$('<query>').bind('confirmedclick', function(){
+			//gets fired upon confirmed click
+	});
 
 
 Events
